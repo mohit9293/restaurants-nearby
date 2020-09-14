@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "uglify": true,
+      },
+      "modules": false,
+      "useBuiltIns": true
+    }],
+    "react",
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "react",
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types",
+      ]
+    }
+  }
+}

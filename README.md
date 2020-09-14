@@ -1,2 +1,7 @@
-# restaurants-nearby
-Find nearby restaurants, get their details and sorting them based on ratings. 
+- Go to the following link and get an API key from Zomato: https://developers.zomato.com/api#headline2
+- Just you need to fetch the key, and update the same on line no. 4 in App.js and Details.js in src folder.
+- Commands to be executed: npm i && npm start, code will run on 8001 port.
+- On the landing page, location of user is being fetched using geolocation code, and based on that, nearby restaurants are fetched.
+- Search and sorting functionality is also added on landing page.
+- To further see details of a particular restaurant, you can click on that particular listing.
+- Feel free to reach out if you face any difficulty.
